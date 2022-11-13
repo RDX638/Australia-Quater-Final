@@ -1,0 +1,63 @@
+.root {
+  color: #EAE2B6;
+  color: #7F8B52;
+  color: #A3A847;
+  color: #558776;
+}
+
+body {
+  /* background: #EAE2B6; */
+  background: #EAE2B6;
+}
+
+h4 .title{
+   text-shadow: 2px 2px 2px #CE5937 !important;
+}
+
+ .strip{
+
+ }
+
+.main {
+  padding: 0;
+  margin: 0;
+  text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
+  color: white;
+  border-radius: 16px 16px 0px 0px;
+  background-image:  url(https://i.ibb.co/M2qRHWY/pexels-evan-white-12002429.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.main .play{
+ margin-bottom:150px ;
+ 
+}
+
+.main .reset{
+  margin-bottom: 350px !important;
+}
+
+
+.main .btn{
+  /* background: yellow; */
+ /* position: relative; */
+ 
+
+}
+
+.main button:hover{
+ 
+}
+
+button .rest{
+  background: red;
+}
+
+
+@media (max-width: 768px) {
+  footer{
+    height:110px;
+    margin-top: 32px;
+  }
+  }

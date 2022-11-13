@@ -1,0 +1,100 @@
+.root{
+    color:#EAE2B6 ; 
+    color: #7F8B52;
+    color: #A3A847;
+    color: #558776;
+  }
+  
+  body{
+   background: #7264145b;
+  }
+  .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .strip .container{
+    background:pink;
+    min-height: 400px;
+  }
+  
+  main{
+    min-height: 500px;
+  }
+  main .title{
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  
+  main h1{
+    margin-top: 100px;
+    margin-bottom: 90px;
+    font-family: 'Tiro Gurmukhi', serif;
+  }
+  
+  .strip .fa{
+    color: red;
+    font-size: 3.5em;
+    transform: 1000ms;
+  }
+
+  .strip .fa:hover{
+ transform: scale(1.3,1.3)
+  }
+  main .container .accordion-flush{
+    margin-top: 90px;
+  }
+  /* .accordion-flush{
+    margin-top: 90px;
+    border: 5px solid black;
+    margin-top: 90px;
+  } */
+  /* אקורדיון שפתוח */
+  .accordion-item .accordion-header .accordion-button {
+  
+    color: White;
+  }
+  
+  .accordion-item .accordion-body {
+    background: grey;
+  }
+  
+  /* אקורדיון שסגור */
+  /* שיש נקודה זה הפוך להיות צמוד */
+  .accordion-item .accordion-header .accordion-button.collapsed {
+    background-color: orange;
+    color: black;
+  }
+  
+  :focus {
+    outline: 0 !important;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+  }
+  
+  .accordion-item .accordion-header .accordion-button {
+    background-color: #558776;
+    color: White;
+  }
+  
+  .accordion-item .accordion-body {
+    background:#EAE2B6 ;
+    background: linear-gradient(
+      0deg,
+      #EAE2B6 86%,
+      #EAE2B6 100%
+    );
+  }
+  
+  /* אקורדיון שסגור */
+  /* שיש נקודה זה הפוך להיות צמוד */
+  .accordion-item .accordion-header .accordion-button.collapsed {
+    background-color: #7F8B52;
+    color: black;
+    transition: 1000ms;
+  }
+  .accordion-item .accordion-header .accordion-button.collapsed:hover {
+    background-color: #A3A847;
+    color: white;
+    /* transform: scale(1.2); */
+    
+  }

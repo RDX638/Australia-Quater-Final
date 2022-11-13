@@ -1,0 +1,276 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.container-fluid{
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background: #558776;
+    /* position: fixed;
+     */
+     position: sticky;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    z-index: 991;
+    min-height: 53px !important;
+}
+header nav ul li {
+    list-style: none;
+    transition: 1000ms;
+    margin-top: 12px;
+}
+header nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.1em;
+    margin: 0 8px 0px 8px;
+    transition: 800ms;
+}
+header nav ul li a :hover {
+    transform: translate(2.2);
+    transition: 1000ms;
+
+}
+header nav a::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 0%;
+    background: #EAE2B6;
+    transition: 1000ms;
+    margin: 0 auto;
+}
+
+/* במעבר עכבר יציג את הקו מתחת ללינק */
+header nav a:hover::after {
+    width: 100%;
+}
+
+
+header nav a::before {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 0%;
+    background: #EAE2B6;
+
+    margin: 0 auto;
+}
+
+/* במעבר עכבר יציג את הקו מתחת ללינק */
+header nav a:hover::before {
+    width: 100%;
+}
+
+
+
+
+header nav ul {
+    display: flex;
+}
+
+header nav {
+    display: flex;
+}
+
+header nav #burger {
+    display: none;
+}
+
+header nav ul li a:hover {
+    color: black;
+    transform: rotate(30deg);
+}
+
+header .logo {
+    font-family: 'Lobster', cursive;
+}
+
+header .search {
+    border: 2px solid white;
+    padding: 2px 0 2px 0;
+    width: 220px;
+}
+
+header .search i {
+    font-size: 1.2em;
+    color: white;
+    padding: 0 0 0 5px;
+}
+
+header .search input::placeholder {
+    color: #eee;
+
+}
+
+header .search input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #eee;
+}
+
+
+footer {
+    min-height: 45px;
+    background: #558776;
+}
+
+footer a i {
+    color: #8bcde0;
+    font-size: 45em;
+
+}
+
+footer a i:hover {
+    color: rgba(122, 113, 113, 0.801);
+    transform: scale(1.5, 1.5);
+}
+
+/* end footer */
+
+@media (max-width:991px) {
+    header div {
+        max-width: 100% !important;
+
+    }
+
+    header nav {
+        padding: 0 15px 0 0px;
+    }
+
+    header nav #burger {
+        display: block;
+        cursor: pointer;
+        order: 2 !important;
+        font-size: 0.7em;
+        color: white;
+    }
+
+    header nav ul li {
+        padding-top: 0;
+       text-align: center;
+       letter-spacing: 3px;
+    }
+
+    header nav ul li:hover {
+        cursor: pointer;
+        transition: 1000ms;
+    }
+
+    header nav ul li a {
+        font-size: 0.8em;
+    }
+
+    
+
+    header nav ul li a::after {
+        content: "";
+        display: block;
+        height: 2px;
+        width: 0%;
+        background: #558776;
+        transition: 1000ms;
+        margin: 0 auto;
+    }
+
+    /* במעבר עכבר יציג את הקו מתחת ללינק */
+    header nav ul li a:hover::after {
+        /* width: 22%; */
+    }
+
+
+    header nav ul li a::before {
+        content: "";
+        display: block;
+        height: 2px;
+        width: 0%;
+        background: #558776;
+        margin: 0 auto;
+    }
+
+    /* במעבר עכבר יציג את הקו מתחת ללינק */
+    header nav ul li a:hover::before {
+        /* width: 22%; */
+    }
+
+    header nav ul li a:hover {
+        color: black;
+
+        transition: 1000ms;
+    }
+
+    header .search i {
+        font-size: 0.8em;
+        color: white;
+        padding: 0 0 0 5px;
+    }
+
+    header .search ::placeholder  {   
+       font-size: 0.8em;
+    }
+
+    header .search  {
+      /* width: 220px; */
+        
+     }
+
+    header nav ul li:last-of-type {
+        border-bottom: none;
+        border-radius: 0 0 20px 0;
+
+    }
+
+    header nav ul {
+        left: 0;
+        display: none;
+        width: 100% !important;
+        background: #EAE2B6;
+        position: absolute;
+        padding: 0 !important;
+        top: 53px;
+        border-radius: 0 0 14px 0px;
+        border-bottom: 1px solid black;
+        height: 100vh;
+
+    }
+
+    header nav .logo {
+        display: none;
+    }
+
+    footer {
+        min-height: 45px;
+        background: #558776;
+    }
+
+    footer a i {
+        color: #8bcde0;
+        width: 19%;
+        display: inline-flex;
+
+    }
+
+    footer a i:hover {
+        color: rgba(122, 113, 113, 0.801);
+        transform: scale(1.5, 1.5);
+    }
+
+    
+}
+
+@media (max-width:768px) {
+    header .search{
+      display: none;
+
+    }
+}
