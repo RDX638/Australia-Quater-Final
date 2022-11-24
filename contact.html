@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="icon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="icon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="icon/favicon-16x16.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="genral.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <script src="script/contactt.js"></script>
+  </head>
+  <body>
+    <!--header start-->
+    <header class="container-fluid d-flex align-items-center">
+      <div class="container">
+        <nav
+          class="row flex-row-reverse flex justify-content-end py- align-items-center"
+        >
+          <ul
+            id="nav_open"
+            class="order-2 col-md-5 col-lg-5 justify-content-between"
+          >
+            <li>
+              <a id="home" href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="about.html">About</a>
+            </li>
+            <li>
+              <a href="media.html">Gallrey</a>
+            </li>
+            <li>
+              <a href="contact.html">Contact us</a>
+            </li>
+            <li>
+              <a href="faq.html">FAQ</a>
+            </li>
+            <li>
+              <a href="trivia.html">Trivia</a>
+            </li>
+          </ul>
+          <!-- burger icon -->
+          <div id="burger" class="col-1">
+            <i class="fa fa-2x fa-bars" aria-hidden="true"></i>
+          </div>
+          <div
+            class="logo col-md-block px-0 px-md-5 col-auto display-6 order-3 text-end"
+          >
+            AUSTRALIA
+          </div>
+
+          <div class="search col-2 order-1 ms-auto rounded">
+            <i class="fa fa-search" aria-hidden="true"></i>
+            <input class="my_input" placeholder="Search...." type="search" />
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!--header end -->
+    <!-- main start -->
+    <main class="mt-2 py-5">
+      <div class="container contact-form p-2 mt-4 p-lg-4">
+        <div class="display-4 center title">Contact us!</div>
+        <div
+          class="justify-content-center align-items-center m-auto text-center py-5"
+        >
+          <i class="fa fa-phone-square p-0 m-0" aria-hidden="true"></i>
+        </div>
+        <form id="id_send" class="p-4">
+          <h3 class="mb-2">message here</h3>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group mb-3">
+                <input
+                  id="id_name"
+                  type="text"
+                  name="Name"
+                  class="form-control"
+                  placeholder="Name*"
+                />
+                <p id="id_checkName" class="text-danger"></p>
+              </div>
+              <div class="form-group my-3">
+                <input
+                  id="id_email"
+                  type="text"
+                  name="Email"
+                  class="form-control"
+                  placeholder="Email*"
+                />
+                <p id="id_checkEmail" class="text-danger"></p>
+              </div>
+              <div class="form-group my-3">
+                <input
+                  id="id_phone"
+                  type="text"
+                  name="Phone"
+                  class="form-control"
+                  placeholder="Phone Number*"
+                />
+                <p id="id_checkPhone" class="text-danger"></p>
+              </div>
+            </div>
+
+            <div class="col-md-6 h-100">
+              <div class="form-group mb-3 mb-md-0">
+                <textarea
+                  id="id_text"
+                  name="txtMsg"
+                  class="form-control"
+                  placeholder="Message*"
+                  style="width: 100%; height: 150px"
+                ></textarea>
+                <p id="id_checkText" class="text-danger"></p>
+              </div>
+            </div>
+            <div class="form-group my-3">
+              <button class="fw-bolder p-md-none" id="id_form" type="submit">
+                Send Message
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </main>
+    <!-- main end -->
+    <!-- start footer -->
+    <footer class="container-fluid">
+      <div class="container">
+        <div class="col-12 row justify-content-around text-center">
+          <div>
+            <a target="_blank" href="https://he-il.facebook.com/">
+              <i
+                class="px-3 my-4 fa fa-2x fa-facebook-square"
+                aria-hidden="true"
+              ></i
+            ></a>
+            <a target="_blank" href="https://twitter.com/i/flow/login">
+              <i
+                class="px-3 my-4 fa fa-2x fa-twitter-square"
+                aria-hidden="true"
+              ></i
+            ></a>
+            <a target="_blank" href="https://www.instagram.com/">
+              <i class="px-3 my-4 fa fa-2x fa-instagram" aria-hidden="true"></i
+            ></a>
+            <a target="_blank" href="https://www.youtube.com/">
+              <i
+                class="px-3 my-4 fa fa-2x fa-youtube-play"
+                aria-hidden="true"
+              ></i
+            ></a>
+          </div>
+          <p class="text-white-50 mb-3">
+            &copy; create by Netanel Alroy <span id="id_year"></span>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
+
+    <script src="script/burger.js"></script>
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script/header.js"></script>
+  </body>
+</html>

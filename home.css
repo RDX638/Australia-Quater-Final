@@ -1,0 +1,162 @@
+.root {
+  color: #eae2b6;
+  color: #7f8b52;
+  color: #a3a847;
+  color: #558776;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+main .strip .carousel .carousel-item {
+  background-position: center;
+  background-size: cover;
+  min-height: 80vh;
+}
+
+main .strip .pic2 {
+  background-position: bottom;
+}
+
+.bg_pic {
+  min-height: 50vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.strip {
+  min-height: 200px;
+  background: #eae2b6;
+}
+
+.strip h4 .title {
+  font-family: "Pacifico", cursive, sans-serif !important;
+}
+
+.strip .row .box {
+  border-radius: 20px 20px 0 0;
+}
+
+.strip .row .box .img_box {
+  overflow: hidden;
+  border-radius: 14px 14px 0px 0px;
+  height: 200px;
+}
+
+.strip .row .box .img_box img {
+  width: 100%;
+  height: 100%;
+}
+
+.strip .row .box h3 {
+  padding: 8px;
+}
+
+.strip .row .box a {
+  color: rgb(84, 173, 215);
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.banner {
+  min-height: 620px !important;
+  background: #eee;
+}
+
+.banner .row .box {
+  box-shadow: 0px 10px 13px -7px #000000, 5px -2px 5px 0px rgba(0, 0, 0, 0.09);
+  border-radius: 20px 20px 0px 0px;
+  min-height: 600px;
+}
+
+.banner .row .para {
+  font-size: 1.4em;
+}
+
+.banner .row .title::after {
+  content: "";
+  display: block;
+  height: 7px;
+  width: 55%;
+  background: #ffae19;
+  border-radius: 4px 4px 4px 4px;
+  margin: 0 auto;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.26);
+}
+
+.banner .row .title {
+  margin-top: 40px;
+  font-weight: 500;
+  font-family: "Mouse Memoirs", sans-serif;
+  font-size: 4em;
+}
+
+.banner .row .description {
+  min-height: 400px;
+}
+
+.banner .row .about {
+  max-width: 1900px;
+  min-height: 620px;
+  padding: 4px;
+  min-height: 100px;
+  margin: auto;
+  font-size: 1.1em;
+  margin-top: 70px;
+}
+
+.banner .row .para {
+  font-size: 1em;
+  min-height: 100px;
+}
+
+.banner .row h3 {
+  font-size: 1.2em;
+}
+
+.banner .row .para {
+  font-size: 1.1em;
+  min-height: 300px;
+}
+
+.banner .row .para1 {
+  font-size: 1.1em;
+  min-height: 300px;
+}
+
+.banner .row .box img {
+  border-radius: 20px 20px 0px 0px;
+}
+
+.banner .row .para3 {
+  width: 41%;
+}
+
+@media (max-width: 991px) {
+  .strip-mobile {
+    background-image: url(https://i.ibb.co/GPy3gVH/pexels-david-dibert-635632.jpg);
+    background-size: cover;
+    min-height: 70vh;
+    background-position: center;
+  }
+
+  .strip-mobile h1 {
+    margin-top: 100%;
+  }
+
+  .banner .row .title::after {
+    content: "";
+    display: block;
+    height: 7px;
+    width: 88%;
+    background: #ffae19;
+    border-radius: 4px 4px 4px 4px;
+    margin: 0 auto;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.26);
+  }
+}

@@ -1,0 +1,30 @@
+.root {
+  color: #eae2b6;
+  color: #7f8b52;
+  color: #a3a847;
+  color: #558776;
+}
+
+body {
+  background: #eae2b6;
+  color: white;
+}
+
+h4 .title {
+  text-shadow: 2px 2px 2px #ce5937 !important;
+}
+
+.main {
+  border-radius: 16px 16px 0px 0px;
+  background-image: url(https://i.ibb.co/M2qRHWY/pexels-evan-white-12002429.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.main .btn {
+  text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
+}
+
+button .rest {
+  background: red;
+}
